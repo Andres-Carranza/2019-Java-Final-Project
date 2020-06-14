@@ -1,0 +1,24 @@
+#grid {
+     -fx-background-color: #00bfff;
+     -fx-padding: 20 20 20 20;
+}
+
+#header {
+   -fx-font-size: 52px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: #f0e68c;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+
+#instructions{
+   -fx-font-size: 18px;
+   -fx-font-family: "Comic Sans MS";
+   -fx-fill: #f0e68c;
+   
+	
+}
+
+.button{
+    -fx-background-color: Transparent;	
+}

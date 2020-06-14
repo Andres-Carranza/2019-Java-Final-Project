@@ -1,0 +1,237 @@
+#new-convo {
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-padding: 10 20 10 20;
+}
+
+#back-button{
+	-fx-background-color: transparent;
+}
+
+#send-button{
+	-fx-background-color: transparent;
+}
+
+#menu-box {
+	-fx-alignment: "top-center";
+    -fx-background-color: #add8e6;
+    -fx-padding: 25;
+    -fx-spacing: 10;
+}
+
+#body-box{
+	-fx-spacing: 10;
+}
+
+#online-users-box{
+    -fx-padding: 10 20 10 20;
+	
+}
+
+#online-users-scroll-pane{
+	-fx-border-color: #000000;
+}
+
+#online-users-list-box{
+    -fx-padding: 5 5 5 5;
+	-fx-background-color: #ffffff;
+	
+	
+}
+
+#online-users-list{
+    -fx-font-family: "Arial Black";
+    -fx-fill: #248f24;
+    -fx-font-size: 9px;
+	
+}
+
+#header{
+	-fx-fill: #b30000;
+    -fx-font-weight: bold;
+	-fx-font-size: 20px;
+    -fx-font-family: "Arial Black";
+}
+
+#conversation-box{	
+    -fx-background-color: #add8e6;
+	-fx-padding: 15;
+	-fx-spacing: 10;
+}
+
+#header-box{
+    -fx-spacing: 10;
+    -fx-padding: 0 20 0 0;
+}
+
+
+
+#texting-field{
+	-fx-background-radius: 25;	
+	-fx-font-size: 30px;
+}
+
+#texting-box{
+	-fx-background-color: #ffffff;
+	-fx-alignment: "bottom-center";
+	-fx-padding: 10 20 10 20;
+	-fx-spacing: 20;
+}
+
+#scroll-pane {
+	-fx-background-color: #ffffff;
+}
+
+#scroll-pane .track , #scroll-pane .decrement-arrow, #scroll-pane .increment-arrow,
+#scroll-pane .scroll-bar{
+    -fx-background-color: #ffffff;
+}
+
+#scroll-pane .increment-button, #scroll-pane .decrement-button{
+	visibility: hidden;
+}
+#online-users-menu-input{
+	-fx-font-size: 23 px;
+	-fx-background-color: #ffffff;
+}
+
+#start-convo-btn{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-padding: 10 20 10 20;
+}
+
+#text-sent{
+    -fx-font-size: 20px;
+    -fx-fill: #ffffff;
+}
+
+#text-received{
+    -fx-font-size: 20px;
+    -fx-fill: #ffffff;
+	
+}
+
+#text-sent-bubble{
+	-fx-alignment: "center-right"; 
+	-fx-background-radius: 30;
+	-fx-background-color: #0059FF;
+    -fx-padding: 10 10 10 10;
+}
+
+#text-received-bubble{
+	-fx-alignment: "center-left";
+	-fx-background-radius: 30;
+	-fx-background-color: #6996AD;
+    -fx-padding: 10 10 10 10;
+}
+
+#disconnected-bubble{
+	-fx-alignment: "center-left";
+	-fx-background-radius: 30;
+	-fx-background-color: #AAAAAA;
+    -fx-padding: 10 10 10 10;
+}
+
+#disconnected{
+	-fx-font-size: 25px;
+	-fx-fill: #FF0000;
+}
+
+#text-sent-bubble-container{
+	-fx-alignment: "center-right"; 
+}
+
+#text-received-bubble-container{
+	-fx-alignment: "center-left";
+}
+
+#name-header{
+	-fx-font-size: 37px;
+	-fx-fill: #003366;
+	-fx-font-weight: bold;
+}
+
+#recipient-name{
+	-fx-font-size: 30px;
+	-fx-fill: #003366;
+}
+
+#last-message{
+	-fx-font-size: 20px;
+	-fx-text-fill: #7e99b4;
+}
+
+#conversations-container{
+	-fx-background-color: #ffffff;
+}
+
+#display-container{
+	-fx-padding: 10;
+	-fx-spacing: 20;
+	-fx-alignment: center-left;
+}
+
+#no-convo-container{
+	-fx-padding: 10;
+	-fx-alignment: center-left;
+	
+}
+
+#no-convo{
+	-fx-font-size: 30px;
+}
+
+#game-buttons{
+	-fx-background-color: transparent;
+}
+
+#game-menu{
+	-fx-spacing: 30;
+}
+
+#tic-tac-toe{
+	-fx-background-color: #ffffff;
+}
+
+#tic-tac-toe-header{
+	-fx-padding: 20;
+	-fx-spacing: 20;
+}
+
+
+
+#tic-tac-toe-header-text{
+	-fx-font-size: 30px;
+}
+
+#connectfour{
+	-fx-background-color: #ffffff;
+}
+
+#connectfour-header{
+	-fx-padding: 5 20 5 20;
+	-fx-spacing: 20;
+}
+
+#connectfour-header-text{
+	-fx-font-size: 30px;
+}
